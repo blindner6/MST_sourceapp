@@ -25,7 +25,7 @@ The pipeline runs with the following steps:
 
 ## Installation and Setup:
 
-No installation is necessary for PACE. Users simply need access to Kostas' Lab `shared-p` (i.e., `shared3`) 
+No installation is necessary on PACE. Users simply need access to Kostas' Lab `shared-p` (i.e., `shared3`) 
 
 ## Quickstart: 
 
