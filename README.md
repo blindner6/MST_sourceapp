@@ -11,6 +11,14 @@ This pipeline is desgined to apportion fecal signal among multiple sources based
 
 The pipeline accepts raw paired FASTQ files. It will run `MicrobeCensus` to estimate GEQ's before trimming with `Trimmomatic` and then competitively mapping reads to fecal source libraries (described here: https://www.sciencedirect.com/science/article/pii/S0043135421011878) with `MagicBLAST`. The resulting mapped reads are used to calculate sequencing depth for each of the source libraries before normalizing against GEQs. These results are reported to the user. 
 
+The pipeline runs with the following steps:
+
+0: Accessioning. Data importation, renaming, and sizing.
+1: Census. GEQ determination.
+2: Trimming. Quality control.
+3: Mapping. Competitive read recruitment.
+4: Seqdepth. Calculation of sequencing depth.
+
 ## Installation and Setup:
 
 No installation is necessary for PACE. Users simply need access to Kostas' Lab `shared-p` (i.e., `shared3`) 
