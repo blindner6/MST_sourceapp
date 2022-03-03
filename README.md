@@ -47,4 +47,4 @@ Doing so will prompt the pipeline to retry the failed step.
 
 ## Known Issues:
 
-The pipeline uses hard-coded paths for several pieces of software which means it cannot be packaged and distributed yet.
+The pipeline uses several hard-coded paths for various software and thus cannot be packaged for distribution yet.
