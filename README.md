@@ -9,7 +9,7 @@ This pipeline is desgined to apportion fecal signal among sources based on compe
 
 ## Overview:
 
-The pipeline accepts raw paired FASTQ files. It will run MicrobeCensus to estimate GEQ's before trimming with Trimmomatic and then competitively mapping reads to fecal source libraries with MagicBLAST. The resulting mapped reads are used to calculate sequencing depth for each of the source libraries before normalizing against GEQs. These results are reported to the user. 
+The pipeline accepts raw paired FASTQ files. It will run `MicrobeCensus` to estimate GEQ's before trimming with `Trimmomatic` and then competitively mapping reads to fecal source libraries (described here: https://www.sciencedirect.com/science/article/pii/S0043135421011878) with `MagicBLAST`. The resulting mapped reads are used to calculate sequencing depth for each of the source libraries before normalizing against GEQs. These results are reported to the user. 
 
 ## Installation and Setup:
 
