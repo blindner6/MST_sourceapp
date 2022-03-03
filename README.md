@@ -5,7 +5,7 @@
 
 ## Description:
 
-This pipeline is desgined to apportion fecal signal among multiple sources based on competitive read mapping of shotgun metagenomic data. The pipeline, scripts and databases are all stored on the Kostas' Lab shared-p directory.
+This pipeline is desgined to apportion fecal signal among multiple sources based on competitive read mapping of shotgun metagenomic data. The pipeline, scripts, and databases are all stored on the Kostas' Lab shared-p directory.
 
 ## Overview:
 
