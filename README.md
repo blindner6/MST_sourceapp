@@ -44,3 +44,7 @@ Occasionally, the pipeline may fail. When you have identified the step which has
 ```qsub /storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_wrapper.pbs-v sid=sample,jid=2```
 
 Doing so will prompt the pipeline to retry the failed step.
+
+## Known Issues:
+
+The pipeline uses hard-coded paths for several pieces of software which means it cannot be packaged and distributed yet.
