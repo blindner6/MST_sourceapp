@@ -23,7 +23,7 @@ The pipeline is launched with the following BASH script:
 
 Four inputs are required, in the following order:
 
-Input1: Alphanumeric string for identifiyng the dataset. Must be unique and NOT contain special characters.
+Input1: Alphanumeric string for identifying the dataset. Must be unique and NOT contain special characters.
 
 Input2: Absolute path to gzipped FASTQ file containing raw forward reads for the dataset.
 
