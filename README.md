@@ -39,7 +39,7 @@ This will create a directory in "path/to/output_dir" called "MST_sourceapp" wher
 
 ## Restarting Failed Steps:
 
-Occasionally, the pipeline may fail. When you have identified the step which has failed, relaunch by providing the wrapper script with the sample identifier you provided to the launcher initially (e.g., "sample" below) and the step that failed (e.g., trimming, "2" below):
+Occasionally, the pipeline may fail. When you have identified the step which has failed, relaunch by providing the wrapper script with the sample identifier you provided to the launcher initially (e.g., Sample ID, `sid`: "sample" in the sample below) and the step that failed (e.g., Job ID, `jid`: "2" in the example below which corresponds with the trimming step):
 
 ```qsub /storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_wrapper.pbs-v sid=sample,jid=2```
 
