@@ -22,9 +22,13 @@ The pipeline is launched with the following BASH script:
 ```/storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_launcher.sh```
 
 Four inputs are required, in the following order:
+
 Input1: Unique alphanumeric string for dataset. Must NOT contain special characters.
+
 Input2: Absolute path to gzipped FASTQ file containing raw forward reads for the dataset.
+
 Input3: Absolute path to gzipped FASTQ file containing raw reverse reads for the dataset.
+
 Input4: Directory where the user would like the project created.
 
 Example usage:
