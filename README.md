@@ -13,15 +13,15 @@ The pipeline accepts raw paired FASTQ files. It will run `MicrobeCensus` to esti
 
 The pipeline runs with the following steps:
 
-0: Accessioning. Data importation, renaming, and sizing.
+**0: Accessioning.** Data importation, renaming, and sizing.
 
-1: Census. GEQ determination.
+**1: Census.** GEQ determination.
 
-2: Trimming. Quality control.
+**2: Trimming.** Quality control.
 
-3: Mapping. Competitive read recruitment.
+**3: Mapping.** Competitive read recruitment.
 
-4: Seqdepth. Calculation of sequencing depth.
+**4: Seqdepth.** Calculation of sequencing depth.
 
 ## Installation and Setup:
 
