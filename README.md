@@ -62,3 +62,5 @@ Doing so will prompt the pipeline to retry the failed step.
 The pipeline uses several hard-coded paths for various software and thus cannot be packaged for distribution yet.
 
 Current version supports only human, chicken, cow, pig, and sewage fecal sources.
+
+For this beta build, do not use source names anywhere in your alphanumeric sample identifier (e.g., don't use chicken001 as a sample name).
