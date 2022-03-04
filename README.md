@@ -60,3 +60,5 @@ Doing so will prompt the pipeline to retry the failed step.
 ## Notes
 
 The pipeline uses several hard-coded paths for various software and thus cannot be packaged for distribution yet.
+
+Current version supports only human, chicken, cow, pig, and sewage fecal sources.
