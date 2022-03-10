@@ -45,7 +45,7 @@ Input4: Directory where the user would like the project created.
 
 Example usage:
 
-```bash /storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_launch sample path/to/reads.1.fastq.gz path/to/reads.2.fastq.gz path/to/output_dir```
+```bash /storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_launch.sh sample path/to/reads.1.fastq.gz path/to/reads.2.fastq.gz path/to/output_dir```
 
 This will create a directory in "path/to/output_dir" called "MST_sourceapp" where the provided FASTQ files will be copied and processed. Multiple samples can be added to the same project directory by running the launcher with new inputs. Do not re-use sample identifiers.
 
