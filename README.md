@@ -53,7 +53,7 @@ This will create a directory in "path/to/output_dir" called "MST_sourceapp" wher
 
 While monitoring the pipeline's progress you may have individual steps fail. When you have identified the step which has failed, relaunch by providing the wrapper script with the following variables: First, sample ID or `sid`. This has been provided as "sample" in the example below. Second, the job ID or `jid`. This has been provided as two "2" in the example below and corresponds with the trimming step.
 
-```qsub /storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_wrapper.pbs-v sid=sample,jid=2```
+```qsub /storage/coda1/p-ktk3/0/shared/rich_project_bio-konstantinidis/shared3/mst/01_pipeline/xx_wrapper.pbs -v sid=sample,jid=2```
 
 Doing so will prompt the pipeline to retry the failed step. 
 
